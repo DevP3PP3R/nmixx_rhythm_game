@@ -404,7 +404,7 @@ const SullyoonGame: React.FC = () => {
       <GameTitle>설윤의 애교디펜스 🥰</GameTitle>
       <GameDescription>
         {!isGameStarted ? "클릭하여 게임 시작하기!" : 
-        "설윤이 고민한 박자에 맞춰 클릭해서 애교를 보여주세요!"}
+        "설윤이 고민하는 박자에 맞춰 터치!"}
       </GameDescription>
       <GameContainer onClick={handleClick}>
         <GameImage 
